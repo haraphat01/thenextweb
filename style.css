@@ -1,130 +1,190 @@
-body{
-    color: #555;
+body {
+  color: #555;
 }
 
-li, div, i{
-    font-size: 100%;
-    padding: 0;
-    margin: 0;
-    border: 0;
+li,
+div,
+i {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
-a{
-    color: #f42;
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
+a {
+  color: #f42;
+  text-decoration: none;
 }
 
-i{ font-style: italic; }
+ul {
+  list-style: none;
+}
+
+i {
+  font-style: italic;
+}
 
 nav {
-    display: block;
+  display: block;
 }
 
 .nav {
-    background: #fff;
-    box-shadow: 0 0 32px rgba(0,0,0,.15);
-    height: 48px;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 10;
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  height: 48px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
 }
 
-.nav-logo{
-    left: 0;
-    position: absolute;
-    top: 0;
+.nav-logo {
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
 .nav-logo img {
-    transition: transform .4s ease,-webkit-transform .4s ease;
-    display: block;
-    height: 16px;
-    position: relative;
-    width: 66px;
-    will-change: transform;
-    z-index: 999;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  display: block;
+  height: 16px;
+  position: relative;
+  width: 66px;
+  will-change: transform;
+  z-index: 999;
 }
 
 .nav-logo a {
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
-    display: block;
-    height: 48px;
-    padding: 16px 20px;
-    width: 106px;
-    will-change: height;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  display: block;
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  will-change: height;
 }
 
 .nav-icon {
-    float: right;
+  float: right;
 }
 
-.nav-icon li{
-    border-left: 1px solid #eee;
-    float: left;
+.nav-icon li {
+  border-left: 1px solid #eee;
+  float: left;
 }
 
 .nav-icon li a {
-    display: block;
-    height: 48px;
-    padding: 16px;
-    width: 48px;
-    will-change: opacity;
+  display: block;
+  height: 48px;
+  padding: 16px;
+  width: 48px;
+  will-change: opacity;
 }
 
 .nav-mob-toggle {
-    transition: transform .4s,-webkit-transform .4s;
-    opacity: 1 !important;
-    position: relative;
-    z-index: 998;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  opacity: 1 !important;
+  position: relative;
+  z-index: 998;
 }
 
 .nav-mog-toggle span {
-    transition: .4s;
-    background-color: #f42;
-    display: block;
-    height: 2px;
-    left: 14px;
-    margin-top: -1px;
-    position: absolute;
-    top: 50%;
-    width: 20px;
+  transition: 0.4s;
+  background-color: #f42;
+  display: block;
+  height: 2px;
+  left: 14px;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 20px;
 }
 
 .nav-mob-toggle span:first-child {
-    transform: translateY(-6px);
+  transform: translateY(-6px);
 }
 
 .nav-mob-toggle span:last-child {
-    transform: translateY(6px);
+  transform: translateY(6px);
 }
 
-.icon--search--dark{
-    background-position: -848px -848px;
+.icon--search--dark {
+  background-position: -848px -848px;
 }
 
 .icon {
-    display: block;
-    background-size: 1296px 1296px;
-    width: 16px;
-    height: 16px;
+  display: block;
+  background-size: 1296px 1296px;
+  width: 16px;
+  height: 16px;
 }
 
 .nav-message {
-    line-height: 60px;
-    font-size: 12px;
-    box-shadow: 0 16px 48px rgba(0,0,0,.15);
-    background: #fd3;
-    color: #000;
-    position: relative;
-    margin-left: 0;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    padding: 0 6px;
+  line-height: 60px;
+  font-size: 12px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  background: #fd3;
+  color: #000;
+  position: relative;
+  margin-left: 0;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 6px;
 }
+
+
+
+ 
+
+@media only screen and (max-width: 425px) {
+
+    .first-grid {
+        grid-template-columns: 100%;
+        grid-template-rows: auto ;
+        border: 2px green solid;
+        position: relative;
+        top: 20px;
+    }
+    .article1, .article2, .article3 {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Sydney-opera-house-796x418.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100px;
+        height: 6rem;   
+        color: white;
+        
+
+    }
+
+
+
+    .fa-history{ position: relative;
+        left:9rem;
+        bottom: 3rem; 
+
+}
+
+
+
+.p1{
+    position: relative;
+    left:11rem;
+    bottom: 5rem;
+}
+
+.fa-share-alt {
+    position: relative;
+    left:20rem;
+    bottom: 8rem;
+}
+.article1 span{
+    position: relative;
+    left:20rem;
+    bottom: 8rem;
+}
+
+}
+
+
+
+  
