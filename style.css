@@ -23,9 +23,33 @@ i {
   font-style: italic;
 }
 
+h2{
+    font-family: Avalon,sans-serif;
+}
+
+h5 {
+    font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 14px;
+}
+
+section, article, header { 
+    display: block; 
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
 nav {
   display: block;
 }
+
+
 
 .nav {
   background: #fff;
@@ -87,26 +111,6 @@ nav {
   z-index: 998;
 }
 
-.nav-mog-toggle span {
-  transition: 0.4s;
-  background-color: #f42;
-  display: block;
-  height: 2px;
-  left: 14px;
-  margin-top: -1px;
-  position: absolute;
-  top: 50%;
-  width: 20px;
-}
-
-.nav-mob-toggle span:first-child {
-  transform: translateY(-6px);
-}
-
-.nav-mob-toggle span:last-child {
-  transform: translateY(6px);
-}
-
 .icon--search--dark {
   background-position: -848px -848px;
 }
@@ -123,28 +127,109 @@ nav {
   font-size: 12px;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
   background: #fd3;
-  color: #000;
-  position: relative;
-  margin-left: 0;
+  position: absolute;
+  margin: 0;
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  width: 100%;
+  top: 48px;
   padding: 0 6px;
 }
+.nav-message a{
+    color: #000;
+}
+
+    .section-1 {
+        padding: 5px;
+        display: grid;
+        grid-row-gap: 10px;
+        grid-template-columns: 100%;
+        grid-template-rows:repeat(auto-fit,minmax(200px,1fr));
+    }
+
+    .section-1 article {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Sydney-opera-house-796x418.jpg");
+        width: 100%;
+    }
+
+    .section-header {
+        padding:0px 15px;
+    }
+    .section-header h2 a{
+       color:#fff;
+       font-size: 20px;
+       font-family: Avalon,sans-serif;
+    }
+
+    .article-link{
+        padding-left: 0px;
+    }
+    
+    .article-link li{
+        float: left;
+        padding-right: 10px;
+    }
+
+/* 
+    .section-header {
+        bottom: 4px;
+        left: 4px;
+        padding: 14px 12px;
+        right: 4px;
+        z-index: 3;
+    }
+
+    .article-link {
+        color: hsla(0,0%,100%,.6);
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .article-link:first-child {
+        margin-left: 0;
+    }
+
+    .article-link li {
+        display: inline-block;
+        margin-left: 6px;
+    }
+    
+    .article-link li i {
+        float: left;
+        margin-right: 4px;
+        opacity: .6;
+        vertical-align: middle;
+    }
+    .article-link a {
+        color: hsla(0,0%,100%,.6);
+    }
+
+    .fa {
+        background-position: -912px -912px;
+        background: transparent url(./image/icons-sprite.svg?1520429355783) no-repeat;
+        background-size: 1296px 1296px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .fa-history {
+        background-position: -160px -160px;
+    }
+    .fa-share-alt {
+        background-position: -192px -192px;
+    }
 
 
-
- 
-
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
 
     .first-grid {
         grid-template-columns: 100%;
         grid-template-rows: auto ;
         border: 2px green solid;
         position: relative;
-        top: 20px;
+        
     }
     .article1, .article2, .article3 {
         background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Sydney-opera-house-796x418.jpg");
@@ -184,7 +269,4 @@ nav {
 }
 
 }
-
-
-
-  
+ */
