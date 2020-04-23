@@ -4,8 +4,6 @@ body {
   height: 100%;
 }
 
-
-
 li,
 div,
 i {
@@ -528,7 +526,6 @@ nav {
     border: 2px solid black;
     color: black;
     overflow: hidden;
-    box-sizing: border-box;
   }
 
   .fund1,
@@ -540,8 +537,10 @@ nav {
   }
 
   .fund1 {
-    line-height: 2em;
-    display: none;
+    grid-column: 1/4;
+    
+    
+    
   }
 
   .fund1 h3 {
@@ -556,7 +555,6 @@ nav {
 
   #visible-p {
     margin-left: 2em;
-    display: flex;
   }
 
   .funding a {
@@ -565,7 +563,8 @@ nav {
   }
 
   .fund1-p {
-    margin-left: 2em;
+    margin-left: 3.5em;
+    line-height: 1em;
   }
 
   .orange {
@@ -667,7 +666,6 @@ nav {
     background-color: white;
     color: black;
     overflow: hidden;
-    box-sizing: border-box;
     border: 1px solid red;
     padding: 1em 1em 1em 0;
   }
@@ -739,7 +737,7 @@ nav {
 
   .fund1 {
     line-height: 2em;
-    display: none;
+    grid-column: 1/5;
   }
 
   .fund1 h3 {
@@ -754,6 +752,7 @@ nav {
 
   #visible-p {
     margin-left: 2em;
+    display: flex;
   }
 
   .funding a {
