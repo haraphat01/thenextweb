@@ -1,6 +1,10 @@
 body {
   color: #555;
+  width: 100%;
+  height: 100%;
 }
+
+
 
 li,
 div,
@@ -271,3 +275,569 @@ nav {
 }
  */
 
+@media only screen and (max-width: 767px) {
+  .first-paragraph {
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .first-paragraph a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .news-class {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(8, 1fr);
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .news1,
+  .news2,
+  .news3,
+  .news4,
+  .news5,
+  .news6,
+  .news7,
+  .news8 {
+    padding-bottom: 1em;
+    height: 7em;
+    color: black;
+  }
+
+  .second-paragraph {
+    color: red;
+  }
+
+  .second-paragraph a:hover {
+    color: orangered;
+  }
+
+  .news-class img {
+    width: 8em;
+    height: auto;
+  }
+
+  .news-class p {
+    margin-left: 8em;
+    line-height: 14px;
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .funding {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .fund1,
+  .fund2,
+  .fund3,
+  .fund4 {
+    padding-bottom: 1em;
+    border: 1px solid black;
+    height: 17em;
+  }
+
+  .fund1 {
+    line-height: 2em;
+  }
+
+  .fund1 h3 {
+    font-weight: bolder;
+    margin-left: 2em;
+  }
+
+  .funding a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .fund1-p {
+    margin-left: 2em;
+  }
+
+  .orange {
+    background: linear-gradient(
+      to top,
+      #ffebe7 0%,
+      #ffebe7 50%,
+      orangered 50%,
+      orangered 100%
+    );
+    height: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .image-1 {
+    width: 6em;
+    height: 6em;
+    margin-left: 1em;
+    position: relative;
+    bottom: 2em;
+  }
+
+  .fund2-h3 {
+    position: relative;
+    left: 5em;
+    top: 1em;
+  }
+  .fund2-h3 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .p1 {
+    position: relative;
+    left: 9em;
+    bottom: 4em;
+  }
+
+  .p1 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .briefcase-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 3em;
+  }
+
+  .fa-tags,
+  .fa-briefcase {
+    color: black;
+  }
+
+  .fund2 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+
+  .fund2-p {
+    position: relative;
+    left: 3em;
+    bottom: 1em;
+  }
+
+  .fund3 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+
+  .fund4 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .first-paragraph {
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .first-paragraph a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .news-class {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 1em 1em 1em 0;
+  }
+
+  .news1,
+  .news2,
+  .news3,
+  .news4,
+  .news5,
+  .news6,
+  .news7,
+  .news8 {
+    color: black;
+    height: 12em;
+    width: 16em;
+  }
+
+  .second-paragraph {
+    font-size: small;
+    position: relative;
+    top: 1em;
+    right: 6em;
+  }
+
+  .third-paragraph {
+    display: inline;
+    position: relative;
+    top: 0.5em;
+    right: 6em;
+    font-size: 1em;
+    white-space: nowrap;
+  }
+
+  .second-paragraph a:hover {
+    color: orangered;
+  }
+
+  .news-class img {
+    width: 14em;
+    height: 5em;
+    margin: 0 0 0 0;
+  }
+
+  .news-class p {
+    margin-left: 8em;
+    line-height: 14px;
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .funding {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .fund1,
+  .fund2,
+  .fund3,
+  .fund4 {
+    padding-bottom: 1em;
+    height: 17em;
+  }
+
+  .fund1 {
+    line-height: 2em;
+    display: none;
+  }
+
+  .fund1 h3 {
+    font-weight: bolder;
+    margin-left: 2em;
+  }
+
+  #visible h3 {
+    font-weight: bolder;
+    margin-left: 1em;
+  }
+
+  #visible-p {
+    margin-left: 2em;
+    display: flex;
+  }
+
+  .funding a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .fund1-p {
+    margin-left: 2em;
+  }
+
+  .orange {
+    background: linear-gradient(
+      to top,
+      #ffebe7 0%,
+      #ffebe7 50%,
+      orangered 50%,
+      orangered 100%
+    );
+    height: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .image-1 {
+    width: 5em;
+    height: 5em;
+    margin-left: 1em;
+    position: relative;
+    bottom: 1em;
+  }
+
+  .fund2-h3 {
+    font-size: small;
+    position: relative;
+    left: 7em;
+    top: 1em;
+  }
+  .fund2-h3 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .p1 {
+    position: relative;
+    left: 7em;
+    bottom: 2.5em;
+  }
+
+  .p1 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .briefcase-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 3em;
+  }
+
+  .fa-tags,
+  .fa-briefcase {
+    color: black;
+  }
+
+  .fund2 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+
+  .fund2-p {
+    position: relative;
+    left: 1em;
+    bottom: 1em;
+  }
+
+  .fund3 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+
+  .fund4 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .first-paragraph {
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .first-paragraph a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .news-class {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 1em 1em 1em 0;
+  }
+
+  .news1,
+  .news2,
+  .news3,
+  .news4,
+  .news5,
+  .news6,
+  .news7,
+  .news8 {
+    color: black;
+    height: 12em;
+    width: 18em;
+  }
+
+  .second-paragraph {
+    font-size: small;
+    position: relative;
+    top: 1em;
+    right: 6em;
+  }
+
+  .third-paragraph {
+    display: inline;
+    position: relative;
+    top: 0.5em;
+    right: 6em;
+    font-size: 1em;
+    white-space: nowrap;
+  }
+
+  .second-paragraph a:hover {
+    color: orangered;
+  }
+
+  .news-class img {
+    width: 14em;
+    height: 5em;
+    margin: 0 0 0 0;
+  }
+
+  .news-class p {
+    margin-left: 8em;
+    line-height: 14px;
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .funding {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .fund1,
+  .fund2,
+  .fund3,
+  .fund4 {
+    padding-bottom: 1em;
+    height: 17em;
+  }
+
+  .fund1 {
+    line-height: 2em;
+    display: none;
+  }
+
+  .fund1 h3 {
+    font-weight: bolder;
+    margin-left: 2em;
+  }
+
+  #visible h3 {
+    font-weight: bolder;
+    margin-left: 1em;
+  }
+
+  #visible-p {
+    margin-left: 2em;
+  }
+
+  .funding a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .fund1-p {
+    margin-left: 2em;
+  }
+
+  .orange {
+    background: linear-gradient(
+      to top,
+      #ffebe7 0%,
+      #ffebe7 50%,
+      orangered 50%,
+      orangered 100%
+    );
+    height: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .image-1 {
+    width: 5em;
+    height: 5em;
+    margin-left: 1em;
+    position: relative;
+    bottom: 1em;
+  }
+
+  .fund2-h3 {
+    font-size: small;
+    position: relative;
+    left: 7em;
+    top: 1em;
+  }
+  .fund2-h3 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .p1 {
+    position: relative;
+    left: 7em;
+    bottom: 2.5em;
+  }
+
+  .p1 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .briefcase-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 3em;
+  }
+
+  .fa-tags,
+  .fa-briefcase {
+    color: black;
+  }
+
+  .fund2 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+
+  .fund2-p {
+    position: relative;
+    left: 1em;
+    bottom: 1em;
+  }
+
+  .fund3 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+
+  .fund4 hr {
+    color: #ffcdc2;
+    margin-top: 1em;
+  }
+}
