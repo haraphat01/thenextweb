@@ -249,69 +249,72 @@ nav {
   .ad-header h1 a, .ad-header h5 a{
       color: #f42;
   }
-  footer {
-      text-align: center;
-      transition: transform .5s ease,-webkit-transform .5s ease;
-    position: relative;
-    will-change: transform;
-    z-index: 4;
-    display: block;
+
+
+  .footer {
+    text-align: center;
+    background-color: rgb(26, 25, 25);
   }
   .footer-links {
-    background: #131313;
     padding: 2.5em 0;
   }
-  .social-wrapper {
+  .footer-links-social-li:last-child{
+    padding-right: 15px;
+  }
+  .footer-links-social,
+  .footer-legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .footer-links-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    max-width: 1192px;
     padding: 0 20px;
   }
-  .footer-links-social {
-    margin-bottom: 1.5em;
-}
-.footer-links-social li {
-    display: inline-block;
-    margin: 0 3px;
-}
-.footer-links-social li a{
-    background: #333;
-    border-radius: 50%;
+  
+  .footer-links-menu-li-a {
     display: block;
     height: 40px;
-    padding: 12px;
-    text-align: center;
     width: 40px;
-}
-.footer-links-social li a .icon {
-    height: 16px;
-    width: 16px;
-}
-.icon {
-    display: block;
-    background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
-    background-size: 1296px 1296px;
-}
-.icon--twitter--light {
-    background-position: -1024px -1024px;
-}
-.icon--facebook--light {
-    background-position: -272px -272px;
-}
-.icon--youtube--light {
-    background-position: -1280px -1280px;
-}
-.icon--instagram--light {
-    background-position: -416px -416px;
-}
-.icon--pinterest--light {
-    background-position: -672px -672px;
-}
-.icon--rss--light {
-    background-position: -816px -816px;
-}
-.icon--mail--light {
-    background-position: -576px -576px;
-}
+    background-color: #302e2e;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-right: 15px;
+  }
+  
+  .footer-links-social li a i {
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .footer-links-social {
+    margin-bottom: 20px;
+  }
+  
+  .fa-wifi {
+    transform: rotate(30deg);
+  }
+  
+  .footer-links-social li:hover {
+    background-color: rgb(26, 25, 25);
+  }
+
+  
+
+ 
+
 .footer-links-menu li {
     font-family: Shentox,sans-serif;
     font-weight: 500;
