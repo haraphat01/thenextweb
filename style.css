@@ -1,17 +1,9 @@
 body {
   color: #555;
+  padding: 10px;
 }
 
-li,
-div,
-i {
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
 a {
-  color: #f42;
   text-decoration: none;
 }
 
@@ -23,33 +15,21 @@ i {
   font-style: italic;
 }
 
-h2{
-    font-family: Avalon,sans-serif;
+h2 {
+  font-family: Avalon, sans-serif;
 }
 
 h5 {
-    font-family: Shentox,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    line-height: 1.5;
-    color: #fff;
-    font-size: 14px;
-}
-
-section, article, header { 
-    display: block; 
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 
 nav {
   display: block;
 }
-
-
 
 .nav {
   background: #fff;
@@ -122,151 +102,259 @@ nav {
   height: 16px;
 }
 
-.nav-message {
-  line-height: 60px;
-  font-size: 12px;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
-  background: #fd3;
-  position: absolute;
-  margin: 0;
-  text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  top: 48px;
-  padding: 0 6px;
+.wrapper {
+  padding: 5px;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: 100%;
 }
-.nav-message a{
-    color: #000;
+.wrapper h1 a {
+    color: #f42
 }
 
-    .section-1 {
-        padding: 5px;
-        display: grid;
-        grid-row-gap: 10px;
-        grid-template-columns: 100%;
-        grid-template-rows:repeat(auto-fit,minmax(200px,1fr));
-    }
 
-    .section-1 article {
-        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Sydney-opera-house-796x418.jpg");
-        width: 100%;
-    }
+.article-pic, .ad-pic {
+    background-image: url("./image/tech.jpg");
+    opacity: 1;
+    flex: 0 0 96px;
+    background-position: 50%;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+}
 
-    .section-header {
-        padding:0px 15px;
-    }
-    .section-header h2 a{
-       color:#fff;
-       font-size: 20px;
-       font-family: Avalon,sans-serif;
-    }
+.popular-section {
+    padding: 10px 14px 0px;
+    background-color: #fdf3f0;
+}
 
-    .article-link{
-        padding-left: 0px;
-    }
+.popular-section h5,.popular-section h4 a {
+    color: #f42;
+}
+
+.popular-header {
+    background:linear-gradient(to top, black, transparent),
+      url(./image/tech.jpg);
+    background-size: 100% 100%;
+    height: 70vh;
+    width: auto;
+    z-index: 2;
+    padding: 30% 0 0 5px;
+}
+
+.popular-header h5 {
+    color: #fff;
+}
+
+.popular-header h3 a {
+   color: #fff;
+   font-weight: bold;
+}
+.author li, .author li a {
+    color: rgba(255,255,255,0.6);
+}
+
+.author, .price {
+    display: flex;
+    padding-left: 0px;
+}
+.author li, .price span {
+    padding-right: 10px;
+}
+
+.popular-section h5 {
+    font-size: 13px;
+}
+
+.section-2, .ad-section {
+    display: flex;
+}
+
+.article-links {
+    padding-left: 0px;
+}
+
+.article-links li {
+    border-bottom: 1px solid #eee;
+}
+
+.article-links li h4 a {
+    color: #555555;
+    display: block;
+    position: relative;
+}
+
+.article-links li h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 5px;
     
-    .article-link li{
-        float: left;
-        padding-right: 10px;
-    }
-
-/* 
-    .section-header {
-        bottom: 4px;
-        left: 4px;
-        padding: 14px 12px;
-        right: 4px;
-        z-index: 3;
-    }
-
-    .article-link {
-        color: hsla(0,0%,100%,.6);
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .article-link:first-child {
-        margin-left: 0;
-    }
-
-    .article-link li {
-        display: inline-block;
-        margin-left: 6px;
-    }
-    
-    .article-link li i {
-        float: left;
-        margin-right: 4px;
-        opacity: .6;
-        vertical-align: middle;
-    }
-    .article-link a {
-        color: hsla(0,0%,100%,.6);
-    }
-
-    .fa {
-        background-position: -912px -912px;
-        background: transparent url(./image/icons-sprite.svg?1520429355783) no-repeat;
-        background-size: 1296px 1296px;
-        width: 16px;
-        height: 16px;
-    }
-
-    .fa-history {
-        background-position: -160px -160px;
-    }
-    .fa-share-alt {
-        background-position: -192px -192px;
-    }
-
-
-/* @media only screen and (max-width: 425px) {
-
-    .first-grid {
-        grid-template-columns: 100%;
-        grid-template-rows: auto ;
-        border: 2px green solid;
-        position: relative;
-        
-    }
-    .article1, .article2, .article3 {
-        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Sydney-opera-house-796x418.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100px;
-        height: 6rem;   
-        color: white;
-        
-
-    }
-
-
-
-    .fa-history{ position: relative;
-        left:9rem;
-        bottom: 3rem; 
-
 }
 
+.ads {
+    padding: 5px;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 100%;
+  }
 
+.article-links li h4 a:before {
+    content: "\2022";
+    color: #f42;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.9em;
+  }
+  
+  .article-links li h4 a:hover {
+    color: black;
+  }
 
-.p1{
+  .ad-text h4 a {
+      color: black;
+    font-size: 14px!important;
+    font-weight: 700;
+    line-height: 18px!important;
+    margin-bottom: 1px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .price span {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .ad-text {
+      padding-left: 10px;
+  }
+  .old-price {
+      text-decoration: line-through;
+  }
+
+  .ad-header h1{
+    float: left;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: Avalon,sans-serif;
+    font-size: 28px;
+    letter-spacing: -.015em;
+}
+.ad-header h5 a {
+    float: right;
+    line-height: 18px;
+    margin-top: 11px;
+}
+  .ad-header h1 a, .ad-header h5 a{
+      color: #f42;
+  }
+  footer {
+      text-align: center;
+      transition: transform .5s ease,-webkit-transform .5s ease;
     position: relative;
-    left:11rem;
-    bottom: 5rem;
+    will-change: transform;
+    z-index: 4;
+    display: block;
+  }
+  .footer-links {
+    background: #131313;
+    padding: 2.5em 0;
+  }
+  .social-wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+  }
+  .footer-links-social {
+    margin-bottom: 1.5em;
+}
+.footer-links-social li {
+    display: inline-block;
+    margin: 0 3px;
+}
+.footer-links-social li a{
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    width: 40px;
+}
+.footer-links-social li a .icon {
+    height: 16px;
+    width: 16px;
+}
+.icon {
+    display: block;
+    background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
+    background-size: 1296px 1296px;
+}
+.icon--twitter--light {
+    background-position: -1024px -1024px;
+}
+.icon--facebook--light {
+    background-position: -272px -272px;
+}
+.icon--youtube--light {
+    background-position: -1280px -1280px;
+}
+.icon--instagram--light {
+    background-position: -416px -416px;
+}
+.icon--pinterest--light {
+    background-position: -672px -672px;
+}
+.icon--rss--light {
+    background-position: -816px -816px;
+}
+.icon--mail--light {
+    background-position: -576px -576px;
+}
+.footer-links-menu li {
+    font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 4px;
+}
+.footer-links-menu li a{
+    color:#aaa;
+}
+.footer-legal {
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+}
+.legal-wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+.footer-legal span {
+    display: block;
+}
+.footer-legal-logoTNW {
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+b{
+    font-weight: 700;
+}
+.footer-legal-logoStackPath, .footer-legal-logoTNW {
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
 }
 
-.fa-share-alt {
-    position: relative;
-    left:20rem;
-    bottom: 8rem;
-}
-.article1 span{
-    position: relative;
-    left:20rem;
-    bottom: 8rem;
-}
 
-}
- */
+  
+  
+  
