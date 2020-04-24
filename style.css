@@ -58,7 +58,7 @@ nav {
 }
 
 .nav-logo img {
-  /* transition: transform 0.4s ease, -webkit-transform 0.4s ease; */
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
   display: block;
   height: 16px;
 
@@ -95,7 +95,7 @@ nav {
 }
 
 .nav-mob-toggle {
-  /* transition: transform 0.4s, -webkit-transform 0.4s; */
+  transition: transform 0.4s, -webkit-transform 0.4s;
   opacity: 1 !important;
   position: relative;
   z-index: 998;
@@ -738,8 +738,8 @@ footer {
   border-radius: 50%;
   background-color: #333;
   margin: 5px;
-  height: 40px;
-  width: 40px;
+  height: px;
+  width: px;
 }
 
 .item-body-ul-li-i {
