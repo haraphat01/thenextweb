@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/haraphat01/thenextweb/faf2878cb057e4df2fac6bd1497519cddc48d5f0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/haraphat01/thenextweb/7be8bfcd51be9652837f84ecaf83ef35543dc5ee/index.html)
 
 
 
