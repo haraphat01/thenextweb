@@ -10,15 +10,28 @@ body {
   line-height: 1.4;
 }
 
-.nav {
-  display: none;
-}
-
 body,
 .latest-header h2,
 .section-3-header h2,
 .section-5-header h2 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-logo a {
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  display: block;
+  height: 100%;
+  padding: 16px 20px;
+  width: 106px;
+  will-change: height;
+}
+
+.nav-icon li a {
+  display: block;
+  height: 48px;
+  padding: 16px;
+  width: 48px;
+  will-change: opacity;
 }
 
 .nav-bar-3-a,
@@ -40,6 +53,7 @@ nav {
 }
 
 .nav {
+  display: none;
   background: #fff;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
   height: 48px;
@@ -52,29 +66,18 @@ nav {
 
 .nav-logo {
   left: 0;
-
-  /* position: absolute; */
   top: 0;
 }
 
 .nav-logo img {
-  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  /* transition: transform 0.4s ease, -webkit-transform 0.4s ease; */
   display: block;
-  height: 16px;
+  height: 100%;
 
   /* position: relative; */
   width: 66px;
   will-change: transform;
   z-index: 999;
-}
-
-.nav-logo a {
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
-  display: block;
-  height: 48px;
-  padding: 16px 20px;
-  width: 106px;
-  will-change: height;
 }
 
 .nav-icon {
@@ -86,16 +89,8 @@ nav {
   float: left;
 }
 
-.nav-icon li a {
-  display: block;
-  height: 48px;
-  padding: 16px;
-  width: 48px;
-  will-change: opacity;
-}
-
 .nav-mob-toggle {
-  transition: transform 0.4s, -webkit-transform 0.4s;
+  /* transition: transform 0.4s, -webkit-transform 0.4s; */
   opacity: 1 !important;
   position: relative;
   z-index: 998;
@@ -323,6 +318,7 @@ nav {
   background-color: #fdfdfd;
   justify-content: space-between;
   align-items: center;
+  height: 48px;
 }
 
 .nav-bar-2 i {
@@ -500,8 +496,8 @@ nav {
   width: 100%;
   background: #f42;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0 !important;
-  font-size: 18px !important;
+  margin: 0;
+  font-size: 18px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -738,8 +734,8 @@ footer {
   border-radius: 50%;
   background-color: #333;
   margin: 5px;
-  height: px;
-  width: px;
+  height: 40px;
+  width: 40px;
 }
 
 .item-body-ul-li-i {
