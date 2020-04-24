@@ -1,578 +1,1014 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en"> 
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
     />
-    <script src="https://kit.fontawesome.com/fdedc31e53.js" crossorigin="anonymous"></script>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-
-    <title>The Nextt Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>The Next Web</title>
   </head>
-
   <body>
     <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#">
-                <img
-                    alt="The Next Web"
-                    src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
-                />
-                </a>
+      <div class="nav-container">
+          <div class="nav-logo">
+              <a href="#">
+              <img
+                  alt="The Next Web"
+                  src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+              />
+              </a>
+          </div>
+          <div class="navigation">
+              <ul class="nav-icon">
+                  <li>
+                      <a href="#">
+                        <i class="fas fa-search"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a id="nav-mob-toggle" class="nav-mob-toggle" href="#">
+                        <i
+                        class="fa fa-bars"
+                        aria-hidden="true"
+                        style="color: #ff4422;"
+                      ></i>
+                      </a>
+                  </li>
+              </ul>
+          </div> 
+      </div> 
+  </nav>
+    
+    <header class="nav-bar nav-tablet">
+      <div class="header-flex">
+        <div class="nav-logo">
+          <a href="#">
+          <img
+              alt="The Next Web"
+              src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+          />
+          </a>
+      </div>
+        <div class="header-flex2">
+          <div class="nav-bar-2">
+            <ul class="third-links md-none">
+              <li class="third-links-li">
+                <a class="third-links-li-a" href="#">LATEST</a>
+              </li>
+              <li class="third-links-li">
+                <a class="third-links-li-a" href="#">HARD FORK</a>
+              </li>
+              <li class="third-links-li">
+                <a class="third-links-li-a" href="#">PLUGGED</a>
+              </li>
+              <li class="third-links-li">
+                <a class="third-links-li-a" href="#">FUNDAMENTALS</a>
+              </li>
+              <li class="third-links-li">
+                <a class="third-links-li-a" href="#">README</a>
+              </li>
+              <li class="third-links-li lg-none">
+                <a class="third-links-li-a" href="#">GROWTH QUARTERS</a>
+              </li>
+              <li class="third-links-li lg-none">
+                <a class="third-links-li-a" href="#">NEUTRAL</a>
+              </li>
+            </ul>
+            <div class="icons">
+              <i class="fas fa-search"></i>
+              <i
+                class="fa fa-bars"
+                aria-hidden="true"
+                style="color: #ff4422;"
+              ></i>
             </div>
-            <div class="navigation">
-                <ul class="nav-icon">
-                    <li>
-                        <a href="#">
-                            <img class="icon" src="./image/search-icon-blk.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a id="nav-mob-toggle" class="nav-mob-toggle" href="#">
-                            <img class="icon" src="./image/menu.png" />
-                        </a>
-                    </li>
-                </ul>
-            </div> 
-        </div> 
-    </nav>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bar-3">
+        <a class="nav-bar-3-a" href="#"
+          >Did you know we have a TECH FESTIVAL? Check it out →</a
+        >
+      </div>
+    </header>
 
     <main>
-        <div class="wrapper">
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <div>
-                    <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                </div>
-                <article>
-                    <div>
-                        <a href="#" class="popular-text"></a>
-                        <header class="popular-header">
-                            
-                                <h5>Most Popular</h5>
-                                <h3><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a></h3>
-                                <ul class="author">
-                                    <li><a href="#">Mix</a></li>
-                                    <li>19 hours ago</li>
-                                </ul>
-                            
-                        </header>
-                        <div class="section-2">
-                            <div class="popular-section">
-                                <h5>Most Popular</h5>
-                                <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                            </div>
-                            <div class="article-pic">
-                                <a href="" >
-
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="article-links">
-                            <li><h4><a href="#">WhatsApp teams up with the WHO to release 21 new stickers about quarantine life </a></h4></li>
-                            <li><h4><a href="#">How to record a Skype call on your phone </a></h4></li>
-                            <li><h4><a href="#">HBO Max streaming service (yes, another) to launch at the end of May </a></h4></li>
-                            <li><h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature </a></h4></li>
-                            <li><h4><a href="#">Uber launches new courier services so you can get more than food delivered </a></h4></li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-            
+      <section class="section-1">
+        <div class="section-1-1">
+          <span class="tsv-logo md-none"></span>
+          <h5>Distract</h5>
+          <h2>
+            Nintendo tries to outsmart the bell barons of Animal Crossing
+          </h2>
+          <ul>
+            <li class="inline section-1-div-ul-li">
+              by <a class="section-1-div-ul-li-a" href="#">by Rachel Kaser</a>
+            </li>
+            <li class="inline section-1-div-ul-li">
+              <i class="far fa-clock"></i> 3 hour ago
+            </li>
+            <li class="inline section-1-div-ul-li">
+              <i class="fas fa-share-alt"></i> 16
+            </li>
+          </ul>
         </div>
-        <div class="ads">
-            <div class="ad-header">
-                <h1><a href="#">App&nbsp;<i class="fa fa-angle-right"></i></a> </h1>
-                <h5><a href="#">see more deals</a></h5>
-            </div>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
-            <section class="ad-section">
-                
-                <div class="ad-pic">
-                    <a href="" >
-
-                    </a>
-                </div>
-                <div class="ad-text">
-                    <h4><a href="#">How to avoid accidental skips with Netflix's new 'screen lock' feature</a</h4>
-                    <div class="price">
-                        <span class="old-price">$822</span>
-                        <span class="new-price">$413</span>
-                    </div>
-                </div>
-            </section>
+        <div class="section-1-2">
+          <h5>Gear</h5>
+          <h2>
+            Review: The Levy electric scooter packs swappable batteries and thoughtful design for $499
+          </h2>
+          <ul>
+            <li class="inline section-1-div-ul-li">
+              by <a class="section-1-div-ul-li-a" href="#">by Napier Lopez</a>
+            </li>
+            <li class="inline section-1-div-ul-li">
+              <i class="far fa-clock"></i> 5 hours ago
+            </li>
+            <li class="inline section-1-div-ul-li">
+              <i class="fas fa-share-alt"></i> 11
+            </li>
+          </ul>
         </div>
-        <footer class="footer">
-            <div class="footer-links">
-                <div class="wrapper upper-wrapper">
-                    <ul class="footer-links-social">
-                        <li class="footer-links-social-li">
-                            <a href="" class="footer-links-menu-li-a"><i class="fab fa-facebook-square "></i></a>
-                        </li>
-                        <li class="footer-links-social-li">
-                            <a href="" class="footer-links-menu-li-a"><i class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li class="footer-links-social-li">
-                            <a href="" class="footer-links-menu-li-a"><i class="fab fa-youtube"></i></a>
-                        </li>
-                        <li class="footer-links-social-li">
-                            <a href="" class="footer-links-menu-li-a"><i class="fab fa-instagram"></i></a>
-                        </li>
-                       
-                        <li class="footer-links-social-li">
-                            <a href=""  class="footer-links-menu-li-a"><i class="fab fa-pinterest-p"></i></a>
-                        </li>
-                        <li class="wifi-none footer-links-social-li">
-                            <a href="" class="footer-links-menu-li-a"><i class="fas fa-wifi"></i></a>
-                        </li>
-                        <li class="footer-links-social-li">
-                            <a href="" class="footer-links-menu-li-a"><i class="fas fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                    <ul class="footer-links-menu">
-                        <li><a href="/conference/" >Events</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/advertise" target="_blank">Advertise</a></li>
-                        <li><a href="https://thenextweb.homerun.hr/" target="_blank" rel="noopener">Jobs</a></li>
-                        <li><a href="/about#contact" >Contact</a></li>
-                    </ul>
-                </div>
+        <div class="section-1-3">
+          <h5>Apps</h5>
+          <h2>
+            Google now alerts you when search results suck
+          </h2>
+          <ul>
+            <li class="inline section-1-div-ul-li">
+              by <a class="section-1-div-ul-li-a" href="#">by Napier Lopez</a>
+            </li>
+            <li class="inline section-1-div-ul-li">
+              <i class="far fa-clock"></i> 7 hours ago
+            </li>
+            <li class="inline section-1-div-ul-li">
+              <i class="fas fa-share-alt"></i> 56
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="section-2">
+        <div class="latest-header">
+          <h2>Latest News ></h2>
+        </div>
+        <div class="latest-container">
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/disney-3865667_1920-480x270.jpg"
+                alt="img"
+              />
             </div>
-            <div class="rights">
-                <div class="footer-legal">
-                    <div class="legal-wrapper">
-                            <span>
-                                <a href="/"><img alt="The Next Web" class="footer-legal-logoTNW" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></a>
-                                © 2006–2020 The Next Web B.V.
-                            </span>
-                            <span>Made with <b>♥</b> in Amsterdam.</span>
-                            <span>
-                                Powered by
-                                <a href="https://www.stackpath.com?utm_campaign=Partner%20Display&amp;utm_source=Partner%20Display&amp;utm_medium=thenextweb" target="_blank" rel="noopener"><img alt="StackPath" class="footer-legal-logoStackPath" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a>
-                            </span>
-                    </div>
-                </div>
-                
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >Disney+ hits 50 million subscribers in just 5 months, giving
+                traders hope</a
+              >
+              <h6>David Canellis . 9 minutes ago</h6>
             </div>
-        </footer>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/sale_27631_primary_image_wide-540x270.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >Turn your standard smartphone video into a professional-grade
+                machine and stream on Twitch or Instagram Live</a
+              >
+              <h6>TNW Deals . 9 minutes ago</h6>
+            </div>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/sale_27623_primary_image_wide-540x270.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >Who needs a copywriter? Email Skript writes all your marketing
+                emails for you.</a
+              >
+              <h6>TNW Deals . 9 minutes ago</h6>
+            </div>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/sale_27479_primary_image_wide-1-540x270.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >Launching an ecommerce business could be your next big move.
+                Here is some helpful advice.</a
+              >
+              <h6>TNW Deals . 9 minutes ago</h6>
+            </div>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-14-516x270.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >Will product designers survive the AI revolution?</a
+              >
+              <h6>Batsirai Madzonga . 22 minutes ago</h6>
+            </div>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/petrol-station-gas-diesel-fuel-oil-demand-ev-electric-air-quality-480x270.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >Survey: Drop in pollution gets Brits interested in electric
+                vehicles</a
+              >
+              <h6>Matthew Beedham . 3 hours ago</h6>
+            </div>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/brand-authority-516x270.png"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >The research is in: Your startup's brand authority matters</a
+              >
+              <h6>Amanda Milligan . 6 hours ago</h6>
+            </div>
+          </div>
+          <div class="latest-contents">
+            <div class="latest-image">
+              <img
+                src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/USSanate-512x270.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="latest-description">
+              <a class="latest-description-a" href="#"
+                >US Senate reportedly bars its members from using Zoom</a
+              >
+              <h6>Ivan Mehta . 5 hours ago</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3">
+        <div class="section-3-header">
+          <h2>
+            Latest funding rounds on >
+          </h2>
+          <ul>
+            <li class="section-3-header-ul-li">
+              <a class="section-3-header-ul-li-a" href="#">Add info</a>
+            </li>
+            <li class="section-3-header-ul-li">&verbar;</li>
+            <li class="section-3-header-ul-li">
+              <a class="section-3-header-ul-li-a" href="#"
+                >Get updates by email</a
+              >
+            </li>
+            <li class="section-3-header-ul-li">&verbar;</li>
+            <li class="section-3-header-ul-li">
+              <a class="section-3-header-ul-li-a" href="#">See more</a>
+            </li>
+          </ul>
+        </div>
+        <div class="section-3-flex">
+          <div class="section-3-item">
+            <div class="item-h1">Codemotion</div>
+            <div class="item-h2">
+              <h4>€6M</h4>
+              <h5>Venture Capital</h5>
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1070707854452117505%2FaYUiJ9B0.jpg&signature=7814ba46dbb05f81f5aac9f2bab225e7"
+                alt="img"
+              />
+            </div>
+            <div class="item-body">
+              <ul>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-tag"></i
+                  ><a class="item-body-ul-li-a" href="#">Development</a>
+                </li>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-briefcase"></i
+                  ><a class="item-body-ul-li-a" href="#">P101, +2</a>
+                </li>
+              </ul>
+            </div>
+            <div class="item-footer">
+              <a class="item-footer-a" href="#"
+                >Codemotion Closes €6M Second Funding Round
+                <span>on&nbsp;FinSMEs</span></a
+              >
+            </div>
+          </div>
+          <div class="section-3-item">
+            <div class="item-h1">Filo</div>
+            <div class="item-h2">
+              <h4>€2.5M</h4>
+              <h5>Venture Capital</h5>
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F919926279180349440%2FvzYB7_OD.jpg&signature=b393d95368a588a98d94e85b1579bac2"
+                alt="img"
+              />
+            </div>
+            <div class="item-body">
+              <ul>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-tag"></i
+                  ><a class="item-body-ul-li-a" href="#"
+                    >Consumer Electronics</a
+                  >
+                </li>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-briefcase"></i
+                  ><a class="item-body-ul-li-a" href="#">LVenture Group, +2</a>
+                </li>
+              </ul>
+            </div>
+            <div class="item-footer">
+              <a class="item-footer-a" href="#"
+                >Filo Raises €2.5M in Debt and Equity Funding
+                <span>on&nbsp;FinSMEs</span></a
+              >
+            </div>
+          </div>
+          <div class="section-3-item">
+            <div class="item-h1">Honcho</div>
+            <div class="item-h2">
+              <h4>€1.2M</h4>
+              <h5>Venture Capital</h5>
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1029296476969730048%2F2sAmAZpc.jpg&signature=feabb2769af521effa740c650629af28"
+                alt="img"
+              />
+            </div>
+            <div class="item-body">
+              <ul>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-tag"></i
+                  ><a class="item-body-ul-li-a" href="#">Mobile</a>
+                </li>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-briefcase"></i
+                  ><a class="item-body-ul-li-a" href="#">Finance</a>
+                </li>
+              </ul>
+            </div>
+            <div class="item-footer">
+              <a class="item-footer-a" href="#"
+                >Codemotion Closes €6M Second Funding Round
+                <span>on&nbsp;FinSMEs</span></a
+              >
+            </div>
+          </div>
+          <div class="section-3-item lg-none">
+            <div class="item-h1">Bigbasket</div>
+            <div class="item-h2">
+              <h4>€50M</h4>
+              <h5>Venture Capital</h5>
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F637332719110782976%2Fr2i3P3xC.jpg&signature=eeb44d3fbf1f5814934f00d0ca9ff9a2"
+                alt="img"
+              />
+            </div>
+            <div class="item-body">
+              <ul>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-tag"></i
+                  ><a class="item-body-ul-li-a" href="#">E-Commerce</a>
+                </li>
+                <li class="item-body-ul-li">
+                  <i class="fas fa-briefcase"></i
+                  ><a class="item-body-ul-li-a" href="#">Alibaba, +2</a>
+                </li>
+              </ul>
+            </div>
+            <div class="item-footer">
+              <a class="item-footer-a" href="#"
+                >BRIEF: Bigbasket banks $50m-plus bridge funding from Alibaba,
+                others to meet Covid-19 demand <span>on&nbsp;FinSMEs</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-4">
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Apps ></h2>
+          </div>
+          <div class="section-4-descriptions image-1">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >Daily Distraction: Here are some free movies for your
+              popcorn-munching ass</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>How to customize your new Slack interface</h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/AppleTV.png"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                Report: iOS 14 will let you try out apps, no install required
+              </li>
+              <li class="content-below-list-ul-li">
+                Google created a braille keyboard for Android, no new hardware
+                required
+              </li>
+              <li class="content-below-list-ul-li">
+                How to customize your new Slack interface
+              </li>
+              <li class="content-below-list-ul-li">
+                Netflix adds PINs to profiles so I can stop freeloaders from
+                screwing up my recommendations
+              </li>
+              <li class="content-below-list-ul-li">
+                Facebook launches Tuned, a scrapbook messaging app just for
+                couples (with iPhones)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Gear ></h2>
+          </div>
+          <div class="section-4-descriptions image-2">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >My favorite no-electricity espresso maker is now easier to use
+              than ever</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Review: The Q Acoustics 3030i takes one of my favorite budget
+                speakers and adds bass
+              </h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/P4091195-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                I won’t buy Sony’s A7R IV (even though it made me a better
+                photographer)
+              </li>
+              <li class="content-below-list-ul-li">
+                Report: The Pixel 4a's specs have all been revealed, but there's
+                no XL version
+              </li>
+              <li class="content-below-list-ul-li">
+                The OnePlus 8 series will be the first with wireless charging,
+                and it's super fast
+              </li>
+              <li class="content-below-list-ul-li">
+                My favorite no-electricity espresso maker is now easier to use
+                than ever
+              </li>
+              <li class="content-below-list-ul-li">
+                The internet is obsessed with redesigning the new PS5 controller
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Tech ></h2>
+          </div>
+          <div class="section-4-descriptions image-3">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >How to make group video calls without logins or downloads</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>How to make group video calls without logins or downloads</h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                Research: How location-tracking apps could stop the spread of
+                coronavirus
+              </li>
+              <li class="content-below-list-ul-li">
+                MIT's sprayable sensor can turn your sofa armrest into a TV
+                remote
+              </li>
+              <li class="content-below-list-ul-li">
+                Parents are using Apple's FaceTime to bond with newborns as
+                hospitals tighten visitation rules
+              </li>
+              <li class="content-below-list-ul-li">
+                Someone trained an AI on BDSM literature so it could remix the
+                King James Bible
+              </li>
+              <li class="content-below-list-ul-li">
+                Why the coronavirus lockdown makes you more vulnerable to
+                phishing scams
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Creative ></h2>
+          </div>
+          <div class="section-4-descriptions image-4">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >Animal Crossing: New Horizons player masterfully recreates
+              ‘Hyrule’ from The Legend of Zelda</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Life imitating art: Quarantined people remix famous paintings
+                with household items
+              </h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Getty-Photo-Challenge.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                A Cats butthole cut ‘trailer’ is out — an analysis of its
+                alternative reality
+              </li>
+              <li class="content-below-list-ul-li">
+                This tool erases web page text to reveal hidden poetry
+              </li>
+              <li class="content-below-list-ul-li">
+                This Amazon parody dating site is hilarious... and also kind of
+                creepy
+              </li>
+              <li class="content-below-list-ul-li">
+                Leaked trailer offers a new look at Godfall, the first game
+                announced for PS5
+              </li>
+              <li class="content-below-list-ul-li">
+                Instagram's decision to hide photoshopped images is a disservice
+                to art
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Podium ></h2>
+          </div>
+          <div class="section-4-descriptions image-5">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >5 messaging tips to help brand marketers navigate the pitfalls of
+              coronavirus</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                5 messaging tips to help brand marketers navigate the pitfalls
+                of coronavirus
+              </h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                An entrepreneur's guide to startup resources during the COVID-19
+                outbreak
+              </li>
+              <li class="content-below-list-ul-li">
+                6 common misconceptions about UX/UI designers
+              </li>
+              <li class="content-below-list-ul-li">
+                Digital fingerprints are the new cookies — and advertisers want
+                yours
+              </li>
+              <li class="content-below-list-ul-li">
+                The challenges TikTok must overcome to stay on top in 2020
+              </li>
+              <li class="content-below-list-ul-li">
+                An entrepreneur's guide to startups battling COVID-19
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Insights ></h2>
+          </div>
+          <div class="section-4-descriptions image-6">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >Amazon extends return windows so you don’t have to go outside
+              during the lockdown</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Nuro gets the go-ahead to test its driverless delivery vehicles
+                in California
+              </h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/nuro-waymo-driverless-delivery-vehicle-autonomous-car-ev-california.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                The key to productivity is distinguishing 'habits' from
+                'routine'
+              </li>
+              <li class="content-below-list-ul-li">
+                New math theory suggests time travel is impossible
+              </li>
+              <li class="content-below-list-ul-li">
+                Travelex paid $2.3M in Bitcoin to get its systems back from
+                hackers
+              </li>
+              <li class="content-below-list-ul-li">
+                Index Ventures launches $2B fund to back tech startups worldwide
+              </li>
+              <li class="content-below-list-ul-li">
+                Disney+ hits 50 million subscribers in just 5 months, giving
+                traders hope
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Launch ></h2>
+          </div>
+          <div class="section-4-descriptions image-7">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >Google's coronavirus information site is now live</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                The hyper-compact Microlino 2.0 EV is almost too cute for words
+              </h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced.png"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                TNW announces Neural: A blog for human-centric AI news and
+                analysis
+              </li>
+              <li class="content-below-list-ul-li">
+                PSA: Amazon Fresh grocery deliveries are now free for US Prime
+                members
+              </li>
+              <li class="content-below-list-ul-li">
+                Alexis Ohanian and Serj Tankian team up to help build a social
+                network for Armenia
+              </li>
+              <li class="content-below-list-ul-li">
+                Google Assistant gets its own phone number in India
+              </li>
+              <li class="content-below-list-ul-li">
+                Pam and Angela from The Office are re-watching the show for
+                their new podcast
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-4-contents">
+          <div class="section-4-header latest-header">
+            <h2>Distract ></h2>
+          </div>
+          <div class="section-4-descriptions image-8">
+            <h5>Most popular</h5>
+            <a class="section-4-descriptions-a image-text" href="#"
+              >Watch 50+ live performances from Montreux Jazz Festival for
+              free</a
+            >
+            <h6><a class="h6class" href="#">Ivan Mehta</a> 21 hours ago</h6>
+          </div>
+          <div class="content-below">
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Daily Distraction: Follow these YouTube chefs and cook up a
+                feast with pantry ingredientse
+              </h4>
+            </div>
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/DD-Cooking.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-below-list">
+            <ul>
+              <li class="content-below-list-ul-li">
+                Daily Distraction: Here are some free movies for your
+                popcorn-munching ass
+              </li>
+              <li class="content-below-list-ul-li">
+                Facebook Gaming launches Tournaments as part of its social
+                distancing campaign
+              </li>
+              <li class="content-below-list-ul-li">
+                Daily Distraction: Here are some free ebooks for your lockdown,
+                nerd
+              </li>
+              <li class="content-below-list-ul-li">
+                Daily Distraction: Learn to play an instrument during lockdown
+              </li>
+              <li class="content-below-list-ul-li">
+                How to disinfect your laptop screen and keyboard
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-5">
+        <div class="section-5-header">
+          <h2>
+            Latest deals >
+          </h2>
+          <ul>
+            <li class="section-5-header-ul-li">
+              <a class="section-5-header-ul-li-a" href="#">See all deals</a>
+            </li>
+          </ul>
+        </div>
+        <div class="section-5-content">
+          <div class="section-5-item">
+            <img
+              src="https://cdnp0.stackassets.com/7a3bbbe12b77586ca58798dc2aac6b0f51f7a8ac/store/f9f2b2fcf253000289dc27dcaaa106fa4b1a0c3e579bbc0612dd572eee70/sale_26993_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >AWS Cloud Essentials Course</a
+                >
+              </h2>
+              <span class="section51">$200</span
+              ><span class="section52">$19.99</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >Learn How to Draw Freebie Bundle</a
+                >
+              </h2>
+              <span class="section51">$0</span>
+              <span class="section52">$0</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp2.stackassets.com/9257668fcaee11d85700e41e6f0885af53444764/store/c3e91210d1e14fad0bbd67762249ba37d7293eff10e62c29ed5b6c368248/sale_27001_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >The Adobe Lightroom & Photoshop for Beginner-Designers
+                  Bundle</a
+                >
+              </h2>
+              <span class="section51">$1791</span
+              ><span class="section52">$39.99</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp0.stackassets.com/b71a35933bfff2f4b68162cdd15511d4c852028e/store/213bde39c7285726394c4afed207d57cfd6bf224453c2c0edbfc12a448e8/sale_24208_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >Babbel Language Learning: Lifetime Subscription (All
+                  Languages)</a
+                >
+              </h2>
+              <span class="section51">$399</span
+              ><span class="section52">$159.99</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >StackSkills Unlimited: Lifetime Access</a
+                >
+              </h2>
+              <span class="section51">$1495</span
+              ><span class="section52">$59</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp1.stackassets.com/a4a04dbdfa33745ffe1eadfe357643683d4fff9e/store/d8dbd9630bd4d7226a9604c67b90e36eb94c412d5be18e4bbabb19aba4f9/sale_27009_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >The Complete Introduction to Software Engineering Bundle</a
+                >
+              </h2>
+              <span class="section51">$1235</span
+              ><span class="section52">$59.99</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >Canva Pro: 3-Month Subscription</a
+                >
+              </h2>
+              <span class="section51">$38</span
+              ><span class="section52">$12.99</span>
+            </div>
+          </div>
+          <div class="section-5-item">
+            <img
+              src="https://cdnp3.stackassets.com/91269f67479c8ba9b50a1afd8c9895a43faed8bb/store/68076d638abc4b1c252b05e65253424957f0ff9549c7bd37b82b975620a8/sale_27020_primary_image.jpg"
+              alt=""
+            />
+            <div>
+              <h2>
+                <a class="section-5-item-h2-a" href="#"
+                  >The Complete 2020 Microsoft Azure Certification Prep
+                  Bundle</a
+                >
+              </h2>
+              <span class="section51">$1839</span
+              ><span class="section52">$39.99</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="footer-links">
+        <div class="wrapper">
+          <ul class="footer-links-social">
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </li>
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fas fa-rss"></i></a>
+            </li>
+            <li class="footer-links-social-li footer-li">
+              <a href="#"><i class="fas fa-envelope-square"></i></a>
+            </li>
+          </ul>
+          <ul class="footer-links-menu">
+            <li class="footer-li">
+              <a class="footer-links-menu-a" href="#">Events</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-links-menu-a" href="#">About</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-links-menu-a" href="#">Advertise</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-links-menu-a" href="#">Jobs</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-links-menu-a" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>
+          <a href="/">
+            <img
+              alt="The Next Web"
+              class="footer-legal-tswlogo"
+              src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" /></a
+          >© 2006–2020 The Next Web B.V.
+        </span>
+        <span>Made with <b>♥</b> in Amsterdam.</span>
+        <span>
+          Powered by
+          <a href="#">
+            <img
+              alt="StackPath"
+              class="footer-legal-logo"
+              src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"
+          /></a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
